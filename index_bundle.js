@@ -22517,7 +22517,7 @@ var App = function (_Component2) {
     value: function getQuote() {
       var _this3 = this;
 
-      return _jquery2.default.getJSON('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1').then(function (data) {
+      return _jquery2.default.getJSON('https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1').then(function (data) {
         _this3.setState({ quotes: data[0].content });
         _this3.ran_col();
       });
@@ -22611,7 +22611,7 @@ exports = module.exports = __webpack_require__(187)(undefined);
 
 
 // module
-exports.push([module.i, "html {\n  height: 100%;\n}\nbody {\n  min-height: 100%;\n  text-align: center;\n}\n.App {\n  text-align: center;\n}\n\n.App-logo {\n  animation: App-logo-spin infinite 20s linear;\n  height: 80px;\n}\n\n.App-header {\n  background-color: #222;\n  height: 150px;\n  padding: 20px;\n  color: white;\n}\n\n.App-intro {\n  font-size: large;\n}\n\n@keyframes App-logo-spin {\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n}\n\n.appContainer{\n  width: 100%;\n  position: absolute;\n  min-height: 100%;\n}\n.infoMsg{\n  display: none;\n  position: absolute;\n  bottom: 40px;\n  margin-left: auto;\n  margin-right: auto;\n  left: 0;\n  right: 0;\n\n}\nhtml.touch .nextButton{\n  display: none;\n}\n\nhtml.touch .infoMsg{\n  display: block;\n  font-size: 60px;\n}\n\n\n.nextButton{\n  position: absolute;\n  bottom: 40px;\n  width:100%;\n  height: 30px;\n}\n.nextButton button{\n  height: 100%;\n  min-width: 200px;\n  width:40%;\n}\n.quoteContainer{\n    padding: 60px 20px 20px 20px;\n}\n.quoteContainer ul{\n  padding: 0px;\n  margin: 0px;\n}\n.quoteContainer ul li{\n  list-style: none;\n  font-size: 24px;\n  font-family: cursive;\n}\nhtml.touch .quoteContainer ul li{\n  font-size: 60px;\n  margin-top: 20%;\n}\n", ""]);
+exports.push([module.i, "html {\n  height: 100%;\n}\nbody {\n  min-height: 100%;\n  text-align: center;\n}\n.App {\n  text-align: center;\n}\n\n.App-logo {\n  animation: App-logo-spin infinite 20s linear;\n  height: 80px;\n}\n\n.App-header {\n  background-color: #222;\n  height: 150px;\n  padding: 20px;\n  color: white;\n}\n\n.App-intro {\n  font-size: large;\n}\n\n@keyframes App-logo-spin {\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n}\n\n.appContainer{\n  width: 100%;\n  position: absolute;\n  min-height: 100%;\n}\n.infoMsg{\n  display: none;\n  position: absolute;\n  bottom: 40px;\n  margin-left: auto;\n  margin-right: auto;\n  left: 0;\n  right: 0;\n\n}\nhtml.touch .nextButton{\n  display: none;\n}\n\nhtml.touch .infoMsg{\n  display: block;\n}\n\n\n.nextButton{\n  position: absolute;\n  bottom: 40px;\n  width:100%;\n  height: 30px;\n}\n.nextButton button{\n  height: 100%;\n  min-width: 200px;\n  width:40%;\n}\n.quoteContainer{\n    padding: 60px 20px 20px 20px;\n}\n.quoteContainer ul{\n  padding: 0px;\n  margin: 0px;\n}\n.quoteContainer ul li{\n  list-style: none;\n  font-size: 24px;\n  font-family: cursive;\n}\n", ""]);
 
 // exports
 
